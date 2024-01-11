@@ -1,3 +1,5 @@
+import { contry } from "./lib";
+
 document.onmouseover = function (e) {
     document.getElementById('cursor').style.display = contry[e.target.id] ? 'flex' : 'none';
     document.getElementById('contry_name').innerText = contry[e.target.id] ? contry[e.target.id] : ''

@@ -1,4 +1,4 @@
-var contry = {
+export const contry = {
     'AL': 'Albania',
     'AT': 'Austria',
     'BE': 'Belgium',
