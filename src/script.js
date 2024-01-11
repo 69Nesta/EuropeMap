@@ -24,10 +24,10 @@ window.onload = (e) => {
 
 const resiseSVG = (h, w) => {
     if (w * .684 < h) {
-        document.getElementById('card').setAttribute("width", w)
-        document.getElementById('card').setAttribute("height", w * .684)
+        document.querySelector('.container svg').setAttribute("width", w)
+        document.querySelector('.container svg').setAttribute("height", w * .684)
     } else {
-        document.getElementById('card').setAttribute("width", h/.684)
-        document.getElementById('card').setAttribute("height", h)
+        document.querySelector('.container svg').setAttribute("width", h/.684)
+        document.querySelector('.container svg').setAttribute("height", h)
     }
  }
